@@ -316,7 +316,14 @@ html, body {
 .content-list__item a {
   color: var(--accent);
 }
+
+.content {
+  position: relative;
+  margin: 0 auto;
+}
+
 .content-photo {
+  margin-bottom: 20px;
   width: 350px;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
   border-radius: 20px;
@@ -339,6 +346,12 @@ html, body {
   display: flex;
   column-gap: 30px;
   align-items: center;
+}
+
+.content-list__item img {
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  width: 500px;
 }
 
 @media (max-width: 620px) {
@@ -395,3 +408,4 @@ html, body {
     order: 0;
   }
 }
+
